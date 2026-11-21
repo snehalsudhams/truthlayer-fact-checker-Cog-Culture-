@@ -12,7 +12,7 @@ from engine import (AppError, counts, export_files, extract_claims, read_pdf,
                     verify_all)
 
 BASE = Path(__file__).resolve().parent
-SAMPLE_PATH = BASE / "assets" / "sample_trap.pdf"
+SAMPLE_PATH = BASE / "sample_trap.pdf"
 
 CSS = """
 :root {--ink:#16253A;--muted:#66768A;--teal:#087B74;--border:#E1E8EE;--bg:#F5F8FA;}
